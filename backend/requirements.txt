@@ -1,0 +1,18 @@
+numpy
+pandas
+python-dotenv
+langchain==0.3.27
+langchain-openai==0.3.28
+langchain_community==0.3.29
+faiss-cpu
+pytesseract
+pdf2image
+fastapi
+uvicorn
+python-multipart
+aiofiles
+pypdf
+langchain-groq
+langchain_huggingface
+sentence-transformers
+# -e .

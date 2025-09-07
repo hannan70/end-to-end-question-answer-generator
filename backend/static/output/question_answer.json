@@ -1,0 +1,82 @@
+[
+    {
+        "Question": "What is Machine Learning and its main function?",
+        "Answer": "Machine Learning is a branch of AI that enables systems to learn from data and improve automatically."
+    },
+    {
+        "Question": "What is the primary focus of the Deep Learning subfield?",
+        "Answer": "Deep Learning is a subfield of Machine Learning that uses neural networks with many layers to model complex patterns in large datasets."
+    },
+    {
+        "Question": "What are the complex patterns that Deep Learning is able to model?",
+        "Answer": "Deep Learning is particularly useful in tasks like image recognition, speech processing, and autonomous driving, and it models complex patterns in large datasets."
+    },
+    {
+        "Question": "What tasks does Deep Learning find particularly useful?",
+        "Answer": "Deep Learning is particularly useful in tasks like image recognition, speech processing, and autonomous driving."
+    },
+    {
+        "Question": "What is the difference between Machine Learning and Deep Learning?",
+        "Answer": "Deep Learning is a subfield of Machine Learning that uses neural networks with many layers to model complex patterns in large datasets."
+    },
+    {
+        "Question": "What type of data is used for Supervised Learning?",
+        "Answer": "Labeled data is used for Supervised Learning."
+    },
+    {
+        "Question": "What is an example of a task that Supervised Learning is used for?",
+        "Answer": "Examples include spam detection, stock price prediction."
+    },
+    {
+        "Question": "What type of data is used for Unsupervised Learning?",
+        "Answer": "Unlabeled data is used for Unsupervised Learning."
+    },
+    {
+        "Question": "What is an example of a task that Unsupervised Learning is used for?",
+        "Answer": "An example of a task that Unsupervised Learning is used for is market segmentation."
+    },
+    {
+        "Question": "What is the goal of training machine learning models on labeled data?",
+        "Answer": "The goal of training machine learning models on labeled data is to train models on labeled data where the correct output is known, enabling tasks such as spam detection and stock price prediction."
+    },
+    {
+        "Question": "What is the goal of training machine learning models on unlabeled data?",
+        "Answer": "The goal of training machine learning models on unlabeled data is to find hidden patterns or structures using unsupervised learning techniques."
+    },
+    {
+        "Question": "How does a neural network model complex patterns?",
+        "Answer": "Deep Learning uses neural networks with many layers to model complex patterns in large datasets."
+    },
+    {
+        "Question": "What is stock price prediction and how does it relate to Machine Learning?",
+        "Answer": "Stock price prediction is an example of a task that uses Supervised Learning in Machine Learning, where models are trained on labeled data to forecast future stock prices based on historical market trends and other factors."
+    },
+    {
+        "Question": "What is the process called when a system learns from data and improves automatically?",
+        "Answer": "Machine Learning is a branch of AI that enables systems to learn from data and improve automatically."
+    },
+    {
+        "Question": "What is image recognition and how does it relate to Deep Learning?",
+        "Answer": "Image recognition is a task where Deep Learning is particularly useful, using neural networks with many layers to model complex patterns in large datasets to identify and classify images or objects within them."
+    },
+    {
+        "Question": "What is autonomous driving and how does it relate to Deep Learning?",
+        "Answer": "Autonomous driving is a task that uses Deep Learning, particularly in tasks like image recognition and speech processing, to enable vehicles to navigate roads, detect obstacles, and make decisions without human intervention."
+    },
+    {
+        "Question": "What is the main difference between supervised and unsupervised learning?",
+        "Answer": "The main difference between supervised and unsupervised learning is that supervised learning trains models on labeled data where the correct output is known, whereas unsupervised learning trains models on unlabeled data to find hidden patterns or structures."
+    },
+    {
+        "Question": "How does a machine learning system improve automatically?",
+        "Answer": "A machine learning system improves automatically by learning from data and refining its performance over time through a process enabled by its specific algorithm or methodology."
+    },
+    {
+        "Question": "What is anomaly detection and how does it relate to Unsupervised Learning?",
+        "Answer": "Anomaly detection is an example of unsupervised learning that involves training models on unlabeled data to find hidden patterns or structures, identifying data points that don't fit typical patterns or behaviors."
+    },
+    {
+        "Question": "What is clustering in the context of machine learning?",
+        "Answer": "Clustering is a popular unsupervised learning technique that groups similar data points."
+    }
+]

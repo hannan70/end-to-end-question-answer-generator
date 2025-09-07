@@ -1,0 +1,313 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    overflow-x: hidden;
+}
+.upload_section {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    max-width: 850px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+.upload_section_inner {   
+    width: 100%;
+    margin: auto;
+}
+
+.listing_file_up {
+    display: none;
+}
+.upload_file_name {
+    font-weight: 700;
+}
+.upload_wrapper {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    transition: all .3s ease-in-out;
+    border: 2px dashed #cbd5e1;
+    border-radius: 16px;
+    padding: 70px 20px;
+    cursor: pointer; 
+    text-align: center; 
+
+}
+.upload_wrapper:hover {
+    border-color: #667eea;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e0e7ff 100%);
+    transform: scale(1.02);
+}
+.upload_wrapper .listing_file_up {
+    width: 100%;
+    height: 100%;  
+}
+.upload_wrapper img  { 
+    text-align: center;
+    display: inline;
+    padding-bottom: 20px;
+}
+.action_btn {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.action_btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.action_btn:active {
+    transform: translateY(0);
+}
+
+.action_btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.action_btn:hover::before {
+    left: 100%;
+}
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 10px;
+}
+.subtitle{
+    color: #6b7280;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+ 
+/* result */
+.results-section {
+    margin-top: 40px;
+    /* display: none; */
+}
+
+ @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section_title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.download_options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.download_box {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.download_box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.csv_box {
+    border-color: #10b981;
+}
+
+.csv_box:hover {
+    border-color: #059669;
+    background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+}
+
+.json_box {
+    border-color: #f59e0b;
+}
+
+.json_box:hover {
+    border-color: #d97706;
+    background: linear-gradient(135deg, #fffbeb, #fef3c7);
+}
+
+.download_icon {
+    width: 70px;
+    height: 60px;
+    border-radius: 12px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.csv_icon {
+    background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.json_icon {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.download_title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 8px;
+}
+
+.download_desc {
+    color: #6b7280;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+}
+
+.download_btn {
+    background: transparent;
+    border: 2px solid #e5e7eb;
+    color: #374151;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.csv_box .download_btn:hover {
+    border-color: #10b981;
+    background: #10b981;
+    color: white;
+}
+
+.json_box .download_btn:hover {
+    border-color: #f59e0b;
+    background: #f59e0b;
+    color: white;
+}
+
+/* Generated Content */
+.generated_content {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.content_header {
+    display: flex;
+    justify-content: between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f3f4f6;
+}
+
+.content_title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #374151;
+}
+
+.qa_count {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.qa_item {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+}
+
+.question {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.question_icon {
+    background: #667eea;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.answer {
+    color: #4b5563;
+    line-height: 1.6;
+    padding-left: 32px;
+}
+
+@media (max-width: 768px) {
+    .download_options {
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        padding: 24px;
+        margin: 10px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,21 @@
+﻿Question,Answer
+What is Machine Learning and its main function?,Machine Learning is a branch of AI that enables systems to learn from data and improve automatically.
+What is the primary focus of the Deep Learning subfield?,Deep Learning is a subfield of Machine Learning that uses neural networks with many layers to model complex patterns in large datasets.
+What are the complex patterns that Deep Learning is able to model?,"Deep Learning is particularly useful in tasks like image recognition, speech processing, and autonomous driving, and it models complex patterns in large datasets."
+What tasks does Deep Learning find particularly useful?,"Deep Learning is particularly useful in tasks like image recognition, speech processing, and autonomous driving."
+What is the difference between Machine Learning and Deep Learning?,Deep Learning is a subfield of Machine Learning that uses neural networks with many layers to model complex patterns in large datasets.
+What type of data is used for Supervised Learning?,Labeled data is used for Supervised Learning.
+What is an example of a task that Supervised Learning is used for?,"Examples include spam detection, stock price prediction."
+What type of data is used for Unsupervised Learning?,Unlabeled data is used for Unsupervised Learning.
+What is an example of a task that Unsupervised Learning is used for?,An example of a task that Unsupervised Learning is used for is market segmentation.
+What is the goal of training machine learning models on labeled data?,"The goal of training machine learning models on labeled data is to train models on labeled data where the correct output is known, enabling tasks such as spam detection and stock price prediction."
+What is the goal of training machine learning models on unlabeled data?,The goal of training machine learning models on unlabeled data is to find hidden patterns or structures using unsupervised learning techniques.
+How does a neural network model complex patterns?,Deep Learning uses neural networks with many layers to model complex patterns in large datasets.
+What is stock price prediction and how does it relate to Machine Learning?,"Stock price prediction is an example of a task that uses Supervised Learning in Machine Learning, where models are trained on labeled data to forecast future stock prices based on historical market trends and other factors."
+What is the process called when a system learns from data and improves automatically?,Machine Learning is a branch of AI that enables systems to learn from data and improve automatically.
+What is image recognition and how does it relate to Deep Learning?,"Image recognition is a task where Deep Learning is particularly useful, using neural networks with many layers to model complex patterns in large datasets to identify and classify images or objects within them."
+What is autonomous driving and how does it relate to Deep Learning?,"Autonomous driving is a task that uses Deep Learning, particularly in tasks like image recognition and speech processing, to enable vehicles to navigate roads, detect obstacles, and make decisions without human intervention."
+What is the main difference between supervised and unsupervised learning?,"The main difference between supervised and unsupervised learning is that supervised learning trains models on labeled data where the correct output is known, whereas unsupervised learning trains models on unlabeled data to find hidden patterns or structures."
+How does a machine learning system improve automatically?,A machine learning system improves automatically by learning from data and refining its performance over time through a process enabled by its specific algorithm or methodology.
+What is anomaly detection and how does it relate to Unsupervised Learning?,"Anomaly detection is an example of unsupervised learning that involves training models on unlabeled data to find hidden patterns or structures, identifying data points that don't fit typical patterns or behaviors."
+What is clustering in the context of machine learning?,Clustering is a popular unsupervised learning technique that groups similar data points.
