@@ -1,7 +1,8 @@
 # 📚 PDF to Q&A Generator
 
-This project is a **End to End Question Answer Generator (RAG) System** built with **FastAPI**, **Next.js**, **LangChain**, **OpenAI embeddings**, and **FAISS**.  
-It extracts text from PDFs, converts the text into semantic embeddings, and uses Retrieval-Augmented Generation (RAG) to generate accurate question–answer pairs. Users can query the system, and answers are retrieved based on the most relevant document context.
+## This project is a **End to End Question Answer Generator (RAG) System** built with **FastAPI**, **Next.js**, **LangChain**, **OpenAI embeddings**, and **FAISS**. 
+
+### It extracts text from PDFs, converts the text into semantic embeddings, and uses Retrieval-Augmented Generation (RAG) to generate accurate question–answer pairs. Users can query the system, and answers are retrieved based on the most relevant document context.
 ---
 
 ## 🌟 Features
